@@ -593,8 +593,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/LadderDev/creed-lite";
 			requirement = {
-				kind = revision;
-				revision = b64d90ab35358a68a7b8d65db5d96b1e203857ad;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

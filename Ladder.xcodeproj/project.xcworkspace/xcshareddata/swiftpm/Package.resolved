@@ -15,7 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/LadderDev/creed-lite",
       "state" : {
-        "revision" : "b64d90ab35358a68a7b8d65db5d96b1e203857ad"
+        "branch" : "main",
+        "revision" : "9e66852380128cdbab612fb09b62b6d1853f21a5"
       }
     },
     {
