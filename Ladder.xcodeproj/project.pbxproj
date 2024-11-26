@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF31B76B2CF4444300947B9C /* Pigment in Frameworks */ = {isa = PBXBuildFile; productRef = AF31B76A2CF4444300947B9C /* Pigment */; };
 		AF5ADF7F2CF3C618002C6BA4 /* Creed-Lite in Frameworks */ = {isa = PBXBuildFile; productRef = AF5ADF7E2CF3C618002C6BA4 /* Creed-Lite */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +57,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF5ADF7F2CF3C618002C6BA4 /* Creed-Lite in Frameworks */,
-				AF31B76B2CF4444300947B9C /* Pigment in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +126,6 @@
 			name = Ladder;
 			packageProductDependencies = (
 				AF5ADF7E2CF3C618002C6BA4 /* Creed-Lite */,
-				AF31B76A2CF4444300947B9C /* Pigment */,
 			);
 			productName = Ladder;
 			productReference = AF0A21982CEE901200D7839B /* Ladder.app */;
@@ -214,7 +211,6 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				AF5ADF7D2CF3C618002C6BA4 /* XCRemoteSwiftPackageReference "creed-lite" */,
-				AF31B7692CF4444300947B9C /* XCRemoteSwiftPackageReference "Pigment" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AF0A21992CEE901200D7839B /* Products */;
@@ -581,14 +577,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		AF31B7692CF4444300947B9C /* XCRemoteSwiftPackageReference "Pigment" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:LadderDev/Pigment.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
 		AF5ADF7D2CF3C618002C6BA4 /* XCRemoteSwiftPackageReference "creed-lite" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/LadderDev/creed-lite";
@@ -600,11 +588,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		AF31B76A2CF4444300947B9C /* Pigment */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AF31B7692CF4444300947B9C /* XCRemoteSwiftPackageReference "Pigment" */;
-			productName = Pigment;
-		};
 		AF5ADF7E2CF3C618002C6BA4 /* Creed-Lite */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = AF5ADF7D2CF3C618002C6BA4 /* XCRemoteSwiftPackageReference "creed-lite" */;

@@ -1,5 +1,5 @@
 {
-  "originHash" : "15fd9a8ce65c86577c726b3df620125ff49a850c3926e6f14f3d671e1078b761",
+  "originHash" : "6dc40a21c3d21461bd405a31a59423cb0542b129b9570523d42dafa532d1e14c",
   "pins" : [
     {
       "identity" : "combine-schedulers",
@@ -17,15 +17,6 @@
       "state" : {
         "branch" : "main",
         "revision" : "501106efcb8a3a1f138decf03dbb0c076edec2e8"
-      }
-    },
-    {
-      "identity" : "pigment",
-      "kind" : "remoteSourceControl",
-      "location" : "git@github.com:LadderDev/Pigment.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "c9f406a8ab1c8a8f639877c805c2b4d7b2742a20"
       }
     },
     {
